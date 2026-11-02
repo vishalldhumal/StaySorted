@@ -1,22 +1,40 @@
 # StaySorted
 
-**StaySorted** is a menu-driven C console application that helps hostel students organize assignments, everyday tasks, and spending.
+StaySorted is a menu-driven C console application for hostel students to organize assignments, everyday tasks, and personal spending.
 
 ## Features
 
-- Add assignments with a subject, title, and due date.
-- View assignments and mark them as complete.
-- Add to-do tasks and mark them as done.
-- Set a budget and record expenses by category.
-- View a dashboard and reminders for upcoming deadlines.
-- Save information in local files for later runs.
+- Add and view assignments with subjects, titles, and due dates.
+- Mark assignments as complete.
+- Add and view to-do tasks, then mark them as done.
+- Set a monthly budget and record expenses.
+- View a budget summary.
+- View reminders for overdue assignments, upcoming deadlines, and pending tasks.
+- Save information locally between runs.
 
-> Reminders appear inside the program. They are not phone or desktop notifications.
+> Reminders appear inside the program when you open it or choose the reminders option. They are not phone or desktop notifications.
+
+## Screenshots
+
+### Main Menu
+![StaySorted main menu](main-menu.png)
+
+### Assignments
+![Assignments menu](assignments.png)
+
+### To-Do List
+![To-Do List menu](todo-list.png)
+
+### Budget Tracker
+![Budget Tracker menu](budget-tracker.png)
+
+### Reminders
+![Reminders screen](reminders.png)
 
 ## Requirements
 
-- A C compiler that supports C99, such as GCC
-- Windows, macOS, or Linux terminal
+- GCC or another C compiler that supports C99
+- A terminal on Windows, macOS, or Linux
 
 ## Compile and run
 
@@ -36,14 +54,6 @@ gcc -std=c99 -Wall -Wextra hosteldesk_neat.c -o hosteldesk_neat
 ./hosteldesk_neat
 ```
 
-## How to use
-
-1. Start the program from the terminal.
-2. Choose a module from the main menu.
-3. Follow the prompts to add or manage assignments, tasks, and expenses.
-4. Choose the reminders option to view overdue assignments and upcoming deadlines.
-5. Exit the program when finished. Keep its generated data files if you want your information to be available next time.
-
 ## C concepts demonstrated
 
 - Structures and arrays
@@ -56,25 +66,9 @@ gcc -std=c99 -Wall -Wextra hosteldesk_neat.c -o hosteldesk_neat
 ## Notes
 
 - StaySorted is a local, single-user console program. It does not sync data between devices.
-- Keep backup copies of the generated data files if you want to preserve your records.
+- Keep the program's generated data files if you want to retain your information.
 - Avoid uploading personal assignment or spending data to a public repository.
 
 ## License
 
 No license has been added. Add a `LICENSE` file if you want to specify how others may use or modify this project.
-## Screenshots
-
-### Main Menu
-![StaySorted main menu](screenshots/main-menu.png)
-
-### Assignments
-![Assignments menu](screenshots/assignments.png)
-
-### To-Do List
-![To-Do List menu](screenshots/todo-list.png)
-
-### Budget Tracker
-![Budget Tracker menu](screenshots/budget-tracker.png)
-
-### Reminders
-![Reminders screen](screenshots/reminders.png)
