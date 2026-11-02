@@ -1,6 +1,6 @@
-# HostelDesk
+# StaySorted
 
-HostelDesk is a menu-driven C console application that helps hostel students organize assignments, everyday tasks, and spending.
+**StaySorted** is a menu-driven C console application that helps hostel students organize assignments, everyday tasks, and spending.
 
 ## Features
 
@@ -32,9 +32,17 @@ gcc -std=c99 -Wall -Wextra hosteldesk_neat.c -o hosteldesk_neat.exe
 ### macOS or Linux
 
 ```bash
-gcc -std=c99 -Wall -Wextra hosteldesk_neat.c -o hosteldesk
-./hosteldesk
+gcc -std=c99 -Wall -Wextra hosteldesk_neat.c -o hosteldesk_neat
+./hosteldesk_neat
 ```
+
+## How to use
+
+1. Start the program from the terminal.
+2. Choose a module from the main menu.
+3. Follow the prompts to add or manage assignments, tasks, and expenses.
+4. Choose the reminders option to view overdue assignments and upcoming deadlines.
+5. Exit the program when finished. Keep its generated data files if you want your information to be available next time.
 
 ## C concepts demonstrated
 
@@ -47,10 +55,10 @@ gcc -std=c99 -Wall -Wextra hosteldesk_neat.c -o hosteldesk
 
 ## Notes
 
-- HostelDesk is a local, single-user console program. It does not sync data between devices.
-- Keep the data files created by the program if you want to retain your saved information.
-- Don’t upload personal expense or assignment data to a public repository.
+- StaySorted is a local, single-user console program. It does not sync data between devices.
+- Keep backup copies of the generated data files if you want to preserve your records.
+- Avoid uploading personal assignment or spending data to a public repository.
 
 ## License
 
-Add a `LICENSE` file if you want to specify how others may use or modify this project.
+No license has been added. Add a `LICENSE` file if you want to specify how others may use or modify this project.
