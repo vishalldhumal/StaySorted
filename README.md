@@ -62,3 +62,19 @@ gcc -std=c99 -Wall -Wextra hosteldesk_neat.c -o hosteldesk_neat
 ## License
 
 No license has been added. Add a `LICENSE` file if you want to specify how others may use or modify this project.
+## Screenshots
+
+### Main Menu
+![StaySorted main menu](screenshots/main-menu.png)
+
+### Assignments
+![Assignments menu](screenshots/assignments.png)
+
+### To-Do List
+![To-Do List menu](screenshots/todo-list.png)
+
+### Budget Tracker
+![Budget Tracker menu](screenshots/budget-tracker.png)
+
+### Reminders
+![Reminders screen](screenshots/reminders.png)
